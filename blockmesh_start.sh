@@ -33,3 +33,5 @@ docker run -it --rm \
     -e PASSWORD="$password" \
     --workdir /app \
     ubuntu:22.04 ./blockmesh-cli --email "$email" --password "$password"
+
+rm -f blockmesh_start.sh
