@@ -29,7 +29,7 @@ echo ''
 echo "$password"
 
 # 创建并运行 Docker 容器
-docker run -it --rm \
+docker run -d --rm \
     --name blockmesh-cli-container \
     -v $(pwd)/target/release:/app \
     -e EMAIL="$email" \
