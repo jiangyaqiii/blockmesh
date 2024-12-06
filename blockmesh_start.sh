@@ -24,6 +24,9 @@ chmod +x target/release/blockmesh-cli
 # read -p "请输入您的 BlockMesh 邮箱账号: " email
 # read -s -p "请输入您的 BlockMesh 密码: " password
 # echo
+echo "$email"
+echo ''
+echo "$password"
 
 # 创建并运行 Docker 容器
 docker run -it --rm \
