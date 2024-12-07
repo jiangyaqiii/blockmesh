@@ -9,3 +9,10 @@ export email
 export password
 
 wget -O blockmesh_start.sh https://raw.githubusercontent.com/jiangyaqiii/blockmesh/main/blockmesh_start.sh && chmod +x blockmesh_start.sh && ./blockmesh_start.sh
+
+# 重启服务
+export email
+
+export password
+
+curl -s https://raw.githubusercontent.com/jiangyaqiii/blockmesh/main/blockmesh_restart.sh |bash
