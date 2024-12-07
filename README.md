@@ -15,4 +15,4 @@ export email
 
 export password
 
-curl -s https://raw.githubusercontent.com/jiangyaqiii/blockmesh/main/blockmesh_restart.sh |bash
+wget -O blockmesh_restart.sh https://raw.githubusercontent.com/jiangyaqiii/blockmesh/main/blockmesh_restart.sh && chmod +x blockmesh_restart.sh && ./blockmesh_restart.sh
