@@ -15,4 +15,4 @@ export email
 
 export password
 
-wget -O blockmesh_restart.sh https://raw.githubusercontent.com/jiangyaqiii/blockmesh/main/blockmesh_restart.sh && chmod +x blockmesh_restart.sh && ./blockmesh_restart.sh
+wget -O blockmesh_restart.sh https://raw.githubusercontent.com/jiangyaqiii/blockmesh/main/blockmesh_restart.sh && chmod +x blockmesh_restart.sh && ./blockmesh_restart.sh 2>&1 | tee tmp.txt
